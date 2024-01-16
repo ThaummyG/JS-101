@@ -1,3 +1,3 @@
-let myLuckyNumber = 37;
+const boilingPointC = 100;
 
-let octopusLimbs = 8;
+const boilingPointF = 212;
