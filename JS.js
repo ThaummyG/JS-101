@@ -1,3 +1,3 @@
-let myLuckyNumber = 37
+let myLuckyNumber = 37;
 
-let octopusLimbs = 8
+let octopusLimbs = 8;
