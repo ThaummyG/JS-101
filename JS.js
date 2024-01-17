@@ -1,3 +1,3 @@
-let bestColor = "purple";
+const whisper = "              message                ";
 
-let quote = 'You had me at "hello"';
+whisper.toUpperCase().trim()
