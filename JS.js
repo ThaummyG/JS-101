@@ -1,3 +1,3 @@
-const boilingPointC = 100;
+let bestColor = "purple";
 
-const boilingPointF = 212;
+let quote = "You had me at "hello"";
