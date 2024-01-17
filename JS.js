@@ -1,3 +1,3 @@
 const whisper = "              message                ";
 
-whisper.toUpperCase().trim()
+whisper.toUpperCase().trim();
