@@ -1,15 +1,11 @@
-function checkEvenNumber(number) {
-    if (number % 2 === 0) {
-        console.log("even");
-    }
-}
+let input = prompt("fill color")
 
-let input = prompt("fill number");
-
-
-if (!isNaN(input)) {
-    input = parseInt(input);
-    checkEvenNumber(input);
+if (input == "stop") {
+    console.log("red");
+} else if (input == "slow") {
+    console.log("yellow");
+} else if (input == "go") {
+    console.log("green");
 } else {
-    console.log("Please enter a valid number.");
+    console.log("Other");
 }
