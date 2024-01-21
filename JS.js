@@ -23,17 +23,30 @@
 //     console.log("type invalid");
 // }
 
-let input = prompt("pls enter somenumbar")
+// let input = prompt("pls enter somenumbar")
 
-let random = Math.random()
+// let random = Math.random()
 
-let number = Math.floor(random * 10)
-console.log(number)
+// let number = Math.floor(random * 10)
+// console.log(number)
 
-if (input < number) {
-    console.log("น้อยเกินไปละ");
-} else if (input > number) {
-    console.log("เยอะไปนะ");
+// if (input < number) {
+//     console.log("น้อยเกินไปละ");
+// } else if (input > number) {
+//     console.log("เยอะไปนะ");
+// } else {
+//     console.log("กว่าจะได้เนอะ");
+// }
+
+
+let password = prompt("pla your paswrd")
+
+if (password.length >= 8) {
+    if (password.indexOf(' ') == -1) {
+        alert("password valid!!")
+    } else {
+        alert("password can't include spaces")
+    }
 } else {
-    console.log("กว่าจะได้เนอะ");
+    alert("password too shot!")
 }
