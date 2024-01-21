@@ -1,11 +1,15 @@
-let input = prompt("fill color")
+// Change the value of num, so that "YOU GOT ME!" prints out
+const num = 102; // THIS IS THE ONLY LINE YOU SHOULD CHANGE :) 
 
-if (input == "stop") {
-    console.log("red");
-} else if (input == "slow") {
-    console.log("yellow");
-} else if (input == "go") {
-    console.log("green");
+// DO NOT TOUCH ANYTHING BELOW (please) 
+if (num <= 100) {
+    if (num >= 50) {
+        console.log("HEY!");
+    }
 } else {
-    console.log("Other");
+    if (num < 103) {
+        if (num % 2 === 0) {
+            console.log("YOU GOT ME!");
+        }
+    }
 }
